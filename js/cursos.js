@@ -21,7 +21,6 @@ showSlides();
 
 function showSlides() {
     var i;
-    var navegarCurso = document.getElementById('navegarCurso');
     var description = document.getElementById('descricao');
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
