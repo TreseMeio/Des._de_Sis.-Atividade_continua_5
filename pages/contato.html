@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
     <script type="text/javascript" src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/contato.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,5 +30,35 @@
             </div>
         </div>
         <!-- fim do componente de letreiro -->
+
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Entre em contato</h2>
+              <p>Estamos sempre disponíveis. Esclareça suas dúvidas</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="../assets/images/child-3194977_1920.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">Nome</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+                  <label for="lname">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="nome@contato.com">
+                  <label for="country">Assunto</label>
+                  <select id="country" name="country">
+                    <option value="atendimento">Atendimento</option>
+                    <option value="secretaria">Secretária</option>
+                    <option value="financeiro">Financeiro</option>
+                    <option value="ouvidoria">Ouvidoria</option>
+                  </select>
+                  <label for="assunto">Assunto</label>
+                  <textarea id="assunto" name="assunto" placeholder="Escreva aqui.." style="height:170px"></textarea>
+                  <input type="submit" value="Enviar">
+                </form>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
