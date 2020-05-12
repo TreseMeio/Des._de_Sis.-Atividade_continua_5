@@ -10,11 +10,11 @@ const descricoes = [
     },
     {
         action: "GTI",
-        description: "ble"
+        description: "Com um diploma de Gestão de T.I. você prova que esá pronto(a) para tomar a frente em situações difíceis, pois possúi a capacidade e competência necessárias para tal. Com isso passa a estar disposto(a) a ser lembado!"
     },
     {
         action: "SI",
-        description: "bli"
+        description: "Este curso é voltado para aqueles(as) que desejam entender mais a fundo sobre a comunicação entre sistemas e seus afins. Neste curso você aprenderá as ferramentas necessárias para lidar com redes de computadores, segurança, algorítimos e protocolos de comunicação, entre outros."
     }
 ];
 showSlides();

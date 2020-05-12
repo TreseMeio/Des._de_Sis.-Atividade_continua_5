@@ -10,6 +10,20 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+.description {
+    text-align: justify;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 50%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    font-size: 2vw;
+}
+
 /* Caption text */
 .text {
   color: #f2f2f2;
