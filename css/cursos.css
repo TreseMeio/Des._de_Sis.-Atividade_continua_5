@@ -3,6 +3,10 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
+#descricao {
+  font-size: 4vw;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;

@@ -9,7 +9,7 @@ body {
   
   .navbar a {
     float: left;
-    font-size: 2vw;
+    font-size: 4vw;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -22,7 +22,7 @@ body {
   }
   
   .dropdown .dropbtn {
-    font-size: 2vw;  
+    font-size: 4vw;  
     border: none;
     outline: none;
     color: white;
@@ -370,4 +370,8 @@ body {
       'right right right right right right' 
       'footer footer footer footer footer footer';
   }
+}
+
+.mobileText {
+  font-size: 4vw;
 }
