@@ -11,11 +11,11 @@
   .grid-container {
     display: grid;
     grid-template-areas: 
-      'header header header header header header' 
-      'left middle middle middle middle right' 
-      'footer footer footer footer footer footer';
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+      'header header header header header' 
+      'middle middle middle middle middle'
+      'right right right right right' 
+      'footer footer footer footer footer';
+    /* grid-column-gap: 10px; */
     /* grid-column-gap: 10px; - if you want gap between the columns */
   } 
   
@@ -23,7 +23,8 @@
   .middle,
   .right {
     padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
+    text-align: center;
+    font-size: 2vw;
   }
   
   /* Style the left column */
@@ -46,7 +47,7 @@
     grid-area: footer;
     background-color: #f1f1f1;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
