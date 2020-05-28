@@ -28,7 +28,15 @@
                   <a onclick="navigate('SI')">Sistemas da informação</a>
                 </div>
             </div>
-            <a onclick="navigate('sobre')">Sobre</a>
+            <div class="dropdown">
+              <button class="dropbtn" onclick="navigate('sobre')">Sobre
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a onclick="navigate('hackatons')">Hackatons</a>
+                  <a onclick="navigate('vestibulares')">Vestibulares</a>
+              </div>
+          </div>
         </div>
         <!-- fim do componente de letreiro -->
 
