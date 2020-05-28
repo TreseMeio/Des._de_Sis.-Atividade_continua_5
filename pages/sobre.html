@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <script src="../js/index.js"></script>
     <title>Sobre a nossa escola</title>
 </head>
+
 <body>
-    
+    <!-- componente de letreiro -->
+    <div class="schoolHeader">
+        <h5 class="googlePacifico">Escola de mentira</h5> <br>
+        <h6>www.escoladementira.com.br</h6>
+    </div>
+    <div class="navbar">
+        <a onclick="navigate('inicio')">Início</a>
+        <a onclick="navigate('contato')">Contato</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="navigate('cursos')">Cursos
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a onclick="navigate('ADS')">Análise e Desenvolvimento de sistemas</a>
+                <a onclick="navigate('BD')">Banco de dados</a>
+                <a onclick="navigate('GTI')">Gestão de T.I.</a>
+                <a onclick="navigate('SI')">Sistemas da informação</a>
+            </div>
+        </div>
+        <a onclick="navigate('sobre')">Sobre</a>
+    </div>
+    <!-- fim do componente de letreiro -->
+    <!-- title para a página -->
+    <!-- <div class="schoolHeader">
+        <h5 class="googlePacifico">Sobre nós</h5> <br>
+    </div> -->
+    <!-- fim do title da página -->
+
+    <!-- começo do about us -->
+
+    <div class="about-section">
+        <h1>Sobre nós</h1>
+        <p>Somos uma universidade focada em Tecnologia da Informação</p>
+        <p>Nosso objetivo principal é capacitar pessoas a atuarem em todos os tipos de cargos possíveis, independentemente de risco ou responsabilidade</p>
+      </div>
+
+      <section>
+          <img src="../assets/images/diretor.jpeg" alt="Leonardo Natário Farias" width="50%", height="50%">
+        
+        <article>
+          <h1>Leonardo Natário Farias</h1>
+          <p><strong>Leonardo Natário Farias</strong> é nosso fundador e atual diretor. Foi ele quem idealizou e tornou possível tudo que somos hoje</p>
+          <p>Formado em Banco de Dados pela <a href="https://impacta.edu.br">Faculdade Impacta de Tecnologia - FIT</a>, é consultor de segurança e infraestrutura renomado, com destaque em aplicações de alta disponibilidade, Cloud, DevOps e Penetration Testing. É também um empreendedor de sucesso e um homem envolvido com causas não-governamentais.</p> <br>
+          <p>Seu papel é garantir a qualidade do ensino trazendo regularmente inovações tanto para a faculdade quanto para seu corpo docente</p> <br>
+          <p>Uma de suas últimas idéias foi tornar os alunos participantes ativos das comunidades de hackatons sendo isso, claro, facultativo por parte dos alunos. De qualquer forma, nos comprometemos em entregar o que há de novidades e tudo que atrai recrutadores do mercado de TI.</p>
+        </article>
+      </section>
+
+    <!-- fim do about us -->
+
 </body>
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="footerContainer">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>Sobre</h6>
+                <p class="text-justify">Nossa universidade preza sempre por trazer tudo de mais atual no mercado sempre.
+                    Dessa forma formamos, há muito tempo, ótimos profissionais</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Atalhos</h6>
+                <ul class="footer-links">
+                    <li><a onclick="navigate('inicio')">Início</a></li>
+                    <li><a onclick="navigate('contato')">Contato</a></li>
+                    <li><a onclick="navigate('cursos')">Cursos</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="footerContainer">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    <a href="#">Escola de mentira</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </html>

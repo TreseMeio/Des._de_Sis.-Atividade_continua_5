@@ -142,6 +142,9 @@ body {
     src: url("../assets/fonts/Pacifico/Pacifico-Regular.ttf")
     }
   /* comecando footer */
+  footer {
+    text-align: center;
+  }
 
   .site-footer
 {
