@@ -1,6 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
+.form_error {
+  visibility: hidden;
+  color: red;
+}
   
   * {
     box-sizing: border-box;

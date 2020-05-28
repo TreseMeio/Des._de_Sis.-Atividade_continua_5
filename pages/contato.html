@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
-    <script type="text/javascript" src="../js/index.js"></script>
     <link rel="stylesheet" href="../css/contato.css">
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/contato.js"></script>
     <title>Contato</title>
 </head>
 <body>
@@ -50,20 +51,21 @@
                 <img src="../assets/images/books-1655783_1920.jpg" style="width:100%">
               </div>
               <div class="column">
-                <form action="/action_page.php">
+                <form name="contato_form" onsubmit="return checkForm()">
                   <label for="fname">Nome</label>
                   <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
                   <label for="lname">Email</label>
                   <input type="text" id="lname" name="lastname" placeholder="nome@contato.com">
-                  <label for="country">Assunto</label>
-                  <select id="country" name="country">
+                  <label for="subject">Assunto</label>
+                  <select id="subject" name="subject">
                     <option value="atendimento">Atendimento</option>
                     <option value="secretaria">Secretária</option>
                     <option value="financeiro">Financeiro</option>
                     <option value="ouvidoria">Ouvidoria</option>
                   </select>
-                  <label for="assunto">Assunto</label>
-                  <textarea id="assunto" name="assunto" placeholder="Escreva aqui.." style="height:170px"></textarea>
+                  <label for="description">Assunto</label>
+                  <textarea id="description" name="description" placeholder="Escreva aqui.." style="height:170px"></textarea>
+                  <h3 class="form_error" id="invalidFormMessage">Há campos não preenchidos</h3>
                   <input type="submit" value="Enviar">
                 </form>
               </div>
